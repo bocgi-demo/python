@@ -1,3 +1,6 @@
+import math
+import flask
+
 
 def my_sum(n):
     if n > 1:
@@ -30,6 +33,13 @@ def my_sum2(n):
         return res[i]
 
 
+def I_will_destory_code_style(n):
+    I_m_smart= [sum((range(i))) for i in range(n)][-1]
+
+    return I_m_smart
+
+
 if __name__ == '__main__':
     print(my_sum2(20))
     print(my_sum(20))
+    print(I_will_destory_code_style(10))
