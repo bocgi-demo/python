@@ -6,5 +6,30 @@ def my_sum(n):
         return 1
 
 
+def my_sum2(n):
+    if n == 1:
+        return 1
+    elif n == 2:
+        return 2
+    elif n == 3:
+        return 3
+    elif n == 4:
+        return 5
+    elif n > 5:
+        res = {
+            -1: 1,
+            0: 1,
+            1: 1,
+            2: 2,
+            3: 3,
+            4: 5,
+            5: 8
+        }
+        for i in range(1, n):
+            res[i] = res[i - 1] + res[i - 2]
+        return res[i]
+
+
 if __name__ == '__main__':
-    print(my_sum(5))
+    print(my_sum2(20))
+    print(my_sum(20))
