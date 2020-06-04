@@ -1,0 +1,7 @@
+pre-commit
+bandit
+prospector
+pylint
+coverage
+pytest
+-r requirements.txt
