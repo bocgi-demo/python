@@ -1,5 +1,6 @@
 pre-commit
 bandit
+flake8
 prospector
 pylint
 coverage
