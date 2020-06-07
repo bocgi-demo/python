@@ -38,6 +38,22 @@ def I_will_destory_code_style(n):
 
     return I_m_smart
 
+  
+def terrible_code():
+    for i in range(1000):
+        if i % 3 < 2:
+            for j in range(i):
+                x = int(str(j)+ str(i))
+                if x % 2:
+                    break
+            else:
+                x = 0
+        else:
+            for k in range(x):
+                x += k
+        res = x
+    return res
+
 
 if __name__ == '__main__':
     print(my_sum2(20))
