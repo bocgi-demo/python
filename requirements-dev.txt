@@ -4,4 +4,6 @@ prospector
 pylint
 coverage
 pytest
+pytest-cov
+pytest-xdist
 -r requirements.txt
